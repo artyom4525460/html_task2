@@ -1,0 +1,88 @@
+.header{
+    background-color: #fff;
+    padding-top: 170px;
+    width: 100%;
+    @media screen and (max-width: $max-width){
+        padding-top: 17vw;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        .menu-button{
+            cursor: pointer;
+            width: 60px;
+            @media screen and (max-width: $max-width){
+                width: 6vw;
+            }
+        }
+        .header-title{
+            font-size: 60px;
+            text-transform: uppercase;
+            padding-left: 45px;
+            font-weight: bold;
+            @media screen and (max-width: $max-width){
+                font-size: 6vw;
+                padding-left: 4.5vw;
+            }
+        }
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        .location{
+            font-size: 40px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            @media screen and (max-width: $max-width){
+                font-size: 4vw;
+            }
+            .marker-img{
+                width: 45px;
+                height: 54px;
+                margin: 0 20px;
+                @media screen and (max-width: $max-width){
+                    width: 4.5vw;
+                    height: 5.4vw;
+                    margin: 0 2vw;
+                }
+            }
+        }
+    }
+
+    .link-block{
+        width: 600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 15px 20px;
+        @media screen and (max-width: $max-width){
+            width: 60vw;
+            padding: 1.5vw 2vw
+        }
+        .question{
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            background-color: #ffffff;
+            border: 2px solid $green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 19px;
+            font-weight: bold;
+            color: $green;
+            margin-left: 10px;
+            @media screen and (max-width: $max-width){
+                width: 3vw;
+                height: 3vw;
+                border-radius: 1.5vw;
+                font-size: 1.9vw;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
