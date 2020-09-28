@@ -3,14 +3,14 @@
     Controls
 */
 .search{
-    margin-top: 65px;
+    margin-top: 30px;
     display: block;
     position: relative;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
     @media screen and (max-width: $max-width){
-        margin-top: 5.77vw;
+        margin-top: 3vw;
     }
     img{
         position: absolute;
@@ -20,15 +20,15 @@
         cursor: pointer;
 
         &#search-button{
-            left: 38px;
+            left: 20px;
             width: 23px;
             @media screen and (max-width: $max-width){
-                left: 3.8vw;
+                left: 2vw;
                 width: 2.3vw;
             }
-            @media screen and (max-width: $max-width){
+            @media screen and (max-width: $max-mobile-width){
                 width: 19px;
-                left: 32px;
+                left: 20px;
             }
         }
 
@@ -46,9 +46,9 @@
     }
 
     input{
-        padding: 22px 22px 22px 78px;
+        padding: 17px 17px 17px 50px;
         width: 600px;
-        height: 60px;
+        height: 50px;
         border-radius: 30px;
         filter: drop-shadow(0 0 23px rgba(0,0,0,0.08));
         background-color: #ffffff;
@@ -56,7 +56,7 @@
         font-size: 22px;
         text-align: left;
         @media screen and (max-width: $max-width){
-            padding: 2.2vw 2.2vw 2.2vw 7.8vw;
+            padding: 1.7vw 1.7vw 1.7vw 5vw;
             width: 60vw;
             height: 6vw;
             border-radius: 3vw;

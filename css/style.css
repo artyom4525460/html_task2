@@ -87,7 +87,7 @@ h3 {
     Controls
 */
 .search {
-  margin-top: 65px;
+  margin-top: 30px;
   display: block;
   position: relative;
   width: fit-content;
@@ -95,7 +95,7 @@ h3 {
   margin-right: auto; }
   @media screen and (max-width: 1000px) {
     .search {
-      margin-top: 5.77vw; } }
+      margin-top: 3vw; } }
   .search img {
     position: absolute;
     top: 50%;
@@ -103,16 +103,16 @@ h3 {
     z-index: 1;
     cursor: pointer; }
     .search img#search-button {
-      left: 38px;
+      left: 20px;
       width: 23px; }
       @media screen and (max-width: 1000px) {
         .search img#search-button {
-          left: 3.8vw;
+          left: 2vw;
           width: 2.3vw; } }
-      @media screen and (max-width: 1000px) {
+      @media screen and (max-width: 450px) {
         .search img#search-button {
           width: 19px;
-          left: 32px; } }
+          left: 20px; } }
     .search img#cross-button {
       right: 62px;
       width: 50px;
@@ -124,9 +124,9 @@ h3 {
           width: 4.44vw;
           height: 4.44vw; } }
   .search input {
-    padding: 22px 22px 22px 78px;
+    padding: 17px 17px 17px 50px;
     width: 600px;
-    height: 60px;
+    height: 50px;
     border-radius: 30px;
     filter: drop-shadow(0 0 23px rgba(0, 0, 0, 0.08));
     background-color: #ffffff;
@@ -135,7 +135,7 @@ h3 {
     text-align: left; }
     @media screen and (max-width: 1000px) {
       .search input {
-        padding: 2.2vw 2.2vw 2.2vw 7.8vw;
+        padding: 1.7vw 1.7vw 1.7vw 5vw;
         width: 60vw;
         height: 6vw;
         border-radius: 3vw;
@@ -343,7 +343,8 @@ button {
   .header .title {
     display: flex;
     justify-content: center;
-    position: relative; }
+    position: relative;
+    margin: 30px 0 0; }
     .header .title .location {
       font-size: 40px;
       font-weight: 500;
