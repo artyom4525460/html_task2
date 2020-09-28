@@ -7,6 +7,9 @@
         @media screen and (max-width: $max-width){
             margin-bottom: 3vw;
         }
+        @media screen and (max-width: $max-mobile-width){
+            flex-direction: column;
+        }
         &-title{
             font-size: 26px;
             @media screen and (max-width: $max-width){
@@ -25,9 +28,20 @@
                 line-height: 3.2vw;
                 padding-top: 2vw;
             }
+            @media screen and (max-width: $max-mobile-width){
+                font-size: 18px;
+                line-height: 32px;
+                padding-top: 0;
+            }
             .bold{
                 font-weight: bold;
             }
+        }
+    }
+    &-buttons{
+        @media screen and (max-width: $max-mobile-width){
+            display: flex;
+            padding: 20px 0;
         }
     }
     &-image{
@@ -35,8 +49,14 @@
         @media screen and (max-width: $max-width){
             min-width: 30vw;
         }
+        @media screen and (max-width: $max-mobile-width){
+            min-width: 100%;
+        }
         img{
             height: 100%;
+            @media screen and (max-width: $max-mobile-width){
+                width: 100%;
+            }
         }
     }
     &-info{
@@ -53,6 +73,12 @@
             top: 2vw;
             right: 3vw;
         }
+        @media screen and (max-width: $max-mobile-width){
+            position: relative;
+            margin-right: 14px;
+            top: 0;
+            right: 0;
+        }
     }
 
     .business-profile-item-detail{
@@ -61,6 +87,9 @@
         color: #2f89fc;
         @media screen and (max-width: $max-width){
             top: 7vw;
+        }
+        @media screen and (max-width: $max-mobile-width){
+            top: 0;
         }
     }
 }

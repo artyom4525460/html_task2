@@ -19,6 +19,9 @@
             margin-right: 2.66vw;
             margin-top: 1.77vw;
         }
+        @media screen and (max-width: $max-mobile-width){
+            margin-top: 30px;
+        }
     }
     .top-part{
         border-radius: 30px;
@@ -66,6 +69,9 @@
                 right: 2.66vw;
                 bottom: 2.84vw;
             }
+            @media screen and (max-width: $max-mobile-width){
+                font-size: 14px;
+            }
         }
     }
     .bottom-part{
@@ -74,6 +80,9 @@
         @media screen and (max-width: $max-width){
             padding: 15vw 1vw 2vw;
         }
+        @media screen and (max-width: $max-mobile-width){
+            padding: 15px 10px 20px;
+        }
     }
     .popular-item-title{
         font-size: 21px;
@@ -81,6 +90,9 @@
         font-weight: bold;
         @media screen and (max-width: $max-width){
             font-size: 2.1vw;
+        }
+        @media screen and (max-width: $max-mobile-width){
+            font-size: 21px;
         }
     }
     .popular-item-location{
@@ -93,12 +105,18 @@
             font-size: 1.4vw;
             margin-top: 1vw;
         }
+        @media screen and (max-width: $max-mobile-width){
+            font-size: 14px;
+        }
         img{
             margin-bottom: -5px;
             display: initial;
             width: 14px;
             @media screen and (max-width: $max-width){
                 width: 1.4vw;
+            }
+            @media screen and (max-width: $max-mobile-width){
+                width: 14px;
             }
         }
     }
@@ -121,6 +139,13 @@
             font-size: 1.8vw;
             right: 1vw;
         }
+        @media screen and (max-width: $max-mobile-width){
+            width: 90px;
+            height: 39px;
+            border-radius: 10px;
+            right: 10px;
+            font-size: 18px;
+        }
         img{
             width: 18px;
             margin: 0;
@@ -128,6 +153,10 @@
             @media screen and (max-width: $max-width){
                 width: 1.8vw;
                 margin-left: 0.6vw;
+            }
+            @media screen and (max-width: $max-mobile-width){
+                width: 18px;
+                margin-left: 6px;
             }
         }
     }

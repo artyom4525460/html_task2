@@ -1,30 +1,45 @@
 .modal-section{
     position: fixed;
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
     height: 100vh;
     background: rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
     justify-content: center;
+    top: 0;
+    z-index: 10;
 }
 
 .modal{
     width: 1260px;
     max-width: 100%;
-    margin: 10px;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
     position: absolute;
     top: 50%;
-    transform: translate(-50%, 0);
-    @media screen and (max-width: $max-width){
-        margin: 1vw;
-        padding: 2vw;
-        border-radius: 1vw;
-    }
+    transform: translate(0%, -50%);
     &-inner{
-
+        width: 100%;
+        padding: 20px;
+        @media screen and (max-width: $max-width){
+            padding: 2vw;
+        }
+        @media screen and (max-width: $max-mobile-width){
+            padding: 0;
+        }
+    }
+    &-inner-block{
+        width: 100%;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        @media screen and (max-width: $max-width){
+            padding: 2vw;
+            border-radius: 1vw;
+        }
+        @media screen and (max-width: $max-mobile-width){
+            border-radius: 0;
+            padding: 40px 20px 30px;
+        }
     }
     .cross{
         width: 38px;
@@ -34,12 +49,31 @@
         font-size: 17px;
         color: #ffffff;
         font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        right: 0;
+        position: absolute;
         @media screen and (max-width: $max-width){
             width: 3.8vw;
             height: 3.8vw;
             border-radius: 1vw;
             font-size: 1.7vw;
         }
+        @media screen and (max-width: $max-mobile-width){
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            font-size: 17px;
+            top: -30px;
+        }
+    }
+}
+.video-modal-inner-block{
+    @media screen and (max-width: $max-mobile-width){
+        border-radius: 10px;
+        padding: 16px;
     }
 }
 .video-modal{
@@ -47,8 +81,10 @@
     background-color: #000000;
     border: 4px solid #0a0a0a;
     width: 100%;
+    display: flex;
     img{
         width: 100%;
+        height: 100%;
     }
     .play-button{
         position: absolute;
@@ -56,8 +92,42 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 82px;
+
+        cursor: pointer;
         @media screen and (max-width: $max-width){
             width: 8.2vw;
         }
+        @media screen and (max-width: $max-mobile-width){
+
+        }
     }
+}
+
+.sign-up-modal{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    @media screen and (max-width: $max-width){
+        width: 70vw;
+    }
+    @media screen and (max-width: $max-mobile-width){
+        width: 100%;
+    }
+    .title{
+        font-size: 36px;
+        color: #292929;
+        @media screen and (max-width: $max-width){
+            font-size: 3.6vw;
+        }
+        @media screen and (max-width: $max-mobile-width){
+            font-size: 36px; 
+        }
+    }
+    input{
+        margin: 20px 0;
+    }
+    .button{
+        margin: 10px auto;
+    }
+    
 }

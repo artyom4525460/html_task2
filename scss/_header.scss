@@ -1,9 +1,9 @@
 .header{
     background-color: #fff;
-    padding-top: 170px;
+    padding-top: 100px;
     width: 100%;
     @media screen and (max-width: $max-width){
-        padding-top: 17vw;
+        padding-top: 10vw;
     }
     .menu{
         display: flex;
@@ -39,6 +39,11 @@
             @media screen and (max-width: $max-width){
                 font-size: 4vw;
             }
+
+            @media screen and (max-width: $max-mobile-width){
+                font-size: 14px;
+            }
+
             .marker-img{
                 width: 45px;
                 height: 54px;
@@ -47,6 +52,10 @@
                     width: 4.5vw;
                     height: 5.4vw;
                     margin: 0 2vw;
+                }
+                @media screen and (max-width: $max-mobile-width){
+                    width: 14px;
+                    height: 17px;
                 }
             }
         }
@@ -62,6 +71,10 @@
         @media screen and (max-width: $max-width){
             width: 60vw;
             padding: 1.5vw 2vw
+        }
+        @media screen and (max-width: $max-mobile-width){
+            width: 302px;
+            padding-top: 20px;
         }
         .question{
             width: 30px;

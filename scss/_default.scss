@@ -3,7 +3,7 @@
 */
 
 $max-width: 1000px;
-$max-mobile-width: 480px;
+$max-mobile-width: 450px;
 
 /* colors: */
 $blue: #2f89fc;
@@ -22,6 +22,9 @@ body{
     @media screen and (max-width: $max-width){
         font-size: 4vw;
     }
+    @media screen and (max-width: $max-mobile-width){
+        font-size: 18px;
+    }
 }
 html, body {
     max-width: 100% !important;
@@ -38,6 +41,9 @@ section{
     @media screen and (max-width: $max-width){
         padding: 0 2vw;
     }
+    @media screen and (max-width: $max-mobile-width){
+        padding: 0 20px;
+    }
 }
 
 
@@ -49,6 +55,9 @@ section{
     @media screen and (max-width: $max-width){
         font-size: 6vw;
         padding: 1vw 0 2vw;
+    }
+    @media screen and (max-width: $max-mobile-width){
+        font-size: 28px;
     }
 }
 
@@ -68,6 +77,9 @@ a{
     @media screen and (max-width: $max-width){
         font-size: 1.8vw;
     }
+    @media screen and (max-width: $max-mobile-width){
+        font-size: 18px;
+    }
 }
 
 h3{
@@ -78,5 +90,14 @@ h3{
     @media screen and (max-width: $max-width){
         font-size: 2.6vw;
         margin: 3vw 0;
+    }
+    @media screen and (max-width: $max-mobile-width){
+        font-size: 22px;
+    }
+}
+
+.search-header{
+    @media screen and (max-width: $max-mobile-width){
+        padding-bottom: 90px;
     }
 }
