@@ -6,3 +6,7 @@ function onHideModal(selector){
 function onShowModal(selector){
     $(selector).show();
 }
+
+function onCall(){
+    alert('Call')
+}

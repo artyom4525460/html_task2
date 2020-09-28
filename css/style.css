@@ -804,6 +804,9 @@ button {
     @media screen and (max-width: 1000px) {
       .video-modal .play-button {
         width: 8.2vw; } }
+    @media screen and (max-width: 450px) {
+      .video-modal .play-button {
+        width: 81px; } }
 
 .sign-up-modal {
   width: 700px;

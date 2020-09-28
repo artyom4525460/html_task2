@@ -10,8 +10,8 @@ $('#slider-popular').slick({
             breakpoint: 450,
             settings: {
                 slidesToShow: 1,
-                nextArrow: '<div class="button arrow arrow-right"><img src="./images/left.svg" alt="Arrow"></div>',
-                prevArrow: '<div class="button arrow arrow-left"><img src="./images/left.svg" alt="Arrow"></div>'
+                nextArrow: '<div class="arrow arrow-right"><img src="./images/left.svg" alt="Arrow"></div>',
+                prevArrow: '<div class="arrow arrow-left"><img src="./images/left.svg" alt="Arrow"></div>'
             }
         }
     ]
