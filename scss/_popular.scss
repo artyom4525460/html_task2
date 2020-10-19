@@ -175,4 +175,21 @@
             padding: 3vw 0;
         }
     }
+    .popular-block-grid{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -10px;
+        margin-right: -10px;
+        .popular-item{
+            width: calc(33.33% - 20px);
+            margin: 0 10px;
+            margin-bottom: 20px;
+            @media screen and (max-width: $max-mobile-width){
+                width: 100%;
+            }
+        }
+        .top-part{
+            display: flex;
+        }
+    }
 }

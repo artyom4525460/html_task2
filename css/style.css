@@ -666,6 +666,20 @@ button {
     @media screen and (max-width: 1000px) {
       .popular .slick-track {
         padding: 3vw 0; } }
+  .popular .popular-block-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px; }
+    .popular .popular-block-grid .popular-item {
+      width: calc(33.33% - 20px);
+      margin: 0 10px;
+      margin-bottom: 20px; }
+      @media screen and (max-width: 450px) {
+        .popular .popular-block-grid .popular-item {
+          width: 100%; } }
+    .popular .popular-block-grid .top-part {
+      display: flex; }
 
 .business-profile {
   width: 100%; }
