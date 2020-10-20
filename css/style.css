@@ -35,6 +35,9 @@ section {
     section {
       padding: 0 20px; } }
 
+.full-section {
+  max-width: 1920px; }
+
 .title {
   font-size: 60px;
   color: #000000;
@@ -680,6 +683,29 @@ button {
           width: 100%; } }
     .popular .popular-block-grid .top-part {
       display: flex; }
+
+.full-section {
+  max-width: 1920px; }
+  .full-section .popular-block-grid .popular-item {
+    width: calc(20% - 20px); }
+    @media screen and (max-width: 1440px) {
+      .full-section .popular-block-grid .popular-item {
+        width: calc(25% - 20px); } }
+    @media screen and (max-width: 980px) {
+      .full-section .popular-block-grid .popular-item {
+        width: calc(33.33% - 20px); } }
+    @media screen and (max-width: 640px) {
+      .full-section .popular-block-grid .popular-item {
+        width: calc(50% - 20px); } }
+    @media screen and (max-width: 450px) {
+      .full-section .popular-block-grid .popular-item {
+        width: 100%; } }
+  .full-section .title {
+    justify-content: flex-start; }
+  .full-section .link-block {
+    margin: 0; }
+  .full-section .search {
+    margin: 0; }
 
 .business-profile {
   width: 100%; }
