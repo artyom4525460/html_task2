@@ -515,45 +515,42 @@ button {
     .popular {
       padding-bottom: 5vw; } }
   .popular .popular-item {
-    width: 650px;
-    border-radius: 30px;
-    filter: drop-shadow(0px 3px 23px rgba(0, 0, 0, 0.08));
+    width: 215px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 11px rgba(0, 0, 0, 0.08));
     background-color: #ffffff;
     overflow: hidden;
     position: relative;
-    margin-right: 30px;
-    margin-top: 20px; }
-    @media screen and (max-width: 1000px) {
+    margin-right: 10px;
+    margin-top: 7px; }
+    @media screen and (max-width: 450px) {
       .popular .popular-item {
         width: 57.77vw;
         border-radius: 2.66vw;
         filter: drop-shadow(0px 0.3vw 2.3vw rgba(0, 0, 0, 0.08));
         margin-right: 2.66vw;
-        margin-top: 1.77vw; } }
-    @media screen and (max-width: 450px) {
-      .popular .popular-item {
         margin-top: 30px; } }
   .popular .top-part {
-    border-radius: 30px;
+    border-radius: 10px;
     width: 100%;
     overflow: hidden;
     position: relative; }
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 450px) {
       .popular .top-part {
         border-radius: 2.66vw; } }
     .popular .top-part img {
       width: 100%; }
     .popular .top-part .popular-item-category {
-      font-size: 30px;
+      font-size: 10px;
       font-weight: bold;
       position: absolute;
       color: #fff;
       background: rgba(255, 255, 255, 0.4);
-      padding: 23px;
+      padding: 7px;
       border-radius: 10px;
-      left: 30px;
-      bottom: 32px; }
-      @media screen and (max-width: 1000px) {
+      left: 10px;
+      bottom: 11px; }
+      @media screen and (max-width: 450px) {
         .popular .top-part .popular-item-category {
           font-size: 2.66vw;
           padding: 2.04vw;
@@ -561,86 +558,63 @@ button {
           left: 2.66vw;
           bottom: 2.84vw; } }
     .popular .top-part .popular-item-distance {
-      font-size: 30px;
+      font-size: 10px;
       font-weight: bold;
       position: absolute;
       color: #fff;
       background: rgba(255, 255, 255, 0.2);
-      padding: 23px;
+      padding: 11px;
       border-radius: 10px;
-      right: 30px;
-      bottom: 32px; }
-      @media screen and (max-width: 1000px) {
+      right: 10px;
+      bottom: 11px; }
+      @media screen and (max-width: 450px) {
         .popular .top-part .popular-item-distance {
-          font-size: 2.66vw;
+          font-size: 14px;
           padding: 2.04vw;
           border-radius: 0.88vw;
           right: 2.66vw;
           bottom: 2.84vw; } }
-      @media screen and (max-width: 450px) {
-        .popular .top-part .popular-item-distance {
-          font-size: 14px; } }
   .popular .bottom-part {
-    padding: 15px 10px 20px;
+    padding: 5px 3px 7px;
     position: relative; }
-    @media screen and (max-width: 1000px) {
-      .popular .bottom-part {
-        padding: 1.5vw 1vw 2vw; } }
     @media screen and (max-width: 450px) {
       .popular .bottom-part {
         padding: 15px 10px 20px; } }
   .popular .popular-item-title {
-    font-size: 21px;
+    font-size: 10px;
     color: #292929;
     font-weight: bold; }
-    @media screen and (max-width: 1000px) {
-      .popular .popular-item-title {
-        font-size: 2.1vw; } }
     @media screen and (max-width: 450px) {
       .popular .popular-item-title {
         font-size: 21px; } }
   .popular .popular-item-location {
-    font-size: 14px;
+    font-size: 10px;
     color: #292929;
     font-weight: 500;
     opacity: 0.8;
-    margin-top: 10px; }
-    @media screen and (max-width: 1000px) {
-      .popular .popular-item-location {
-        font-size: 1.4vw;
-        margin-top: 1vw; } }
+    margin-top: 3px; }
     @media screen and (max-width: 450px) {
       .popular .popular-item-location {
         font-size: 14px; } }
     .popular .popular-item-location img {
-      margin-bottom: -5px;
+      margin-bottom: -3px;
       display: initial;
-      width: 14px; }
-      @media screen and (max-width: 1000px) {
-        .popular .popular-item-location img {
-          width: 1.4vw; } }
+      width: 10px; }
       @media screen and (max-width: 450px) {
         .popular .popular-item-location img {
           width: 14px; } }
   .popular .popular-item-phone {
-    width: 90px;
-    height: 39px;
+    width: 50px;
+    height: 23px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 10px;
     position: absolute;
-    right: 10px;
+    right: 3px;
     top: 0;
     padding: 0;
     display: flex;
     align-items: center;
     transform: translate(0, -50%); }
-    @media screen and (max-width: 1000px) {
-      .popular .popular-item-phone {
-        width: 9vw;
-        height: 3.9vw;
-        border-radius: 1vw;
-        font-size: 1.8vw;
-        right: 1vw; } }
     @media screen and (max-width: 450px) {
       .popular .popular-item-phone {
         width: 90px;
@@ -649,13 +623,9 @@ button {
         right: 10px;
         font-size: 18px; } }
     .popular .popular-item-phone img {
-      width: 18px;
+      width: 6px;
       margin: 0;
-      margin-left: 6px; }
-      @media screen and (max-width: 1000px) {
-        .popular .popular-item-phone img {
-          width: 1.8vw;
-          margin-left: 0.6vw; } }
+      margin-left: 2px; }
       @media screen and (max-width: 450px) {
         .popular .popular-item-phone img {
           width: 18px;
@@ -675,7 +645,6 @@ button {
     margin-left: -10px;
     margin-right: -10px; }
     .popular .popular-block-grid .popular-item {
-      width: calc(33.33% - 20px);
       margin: 0 10px;
       margin-bottom: 20px; }
       @media screen and (max-width: 450px) {
@@ -686,20 +655,6 @@ button {
 
 .full-section {
   max-width: 1920px; }
-  .full-section .popular-block-grid .popular-item {
-    width: calc(20% - 20px); }
-    @media screen and (max-width: 1440px) {
-      .full-section .popular-block-grid .popular-item {
-        width: calc(25% - 20px); } }
-    @media screen and (max-width: 980px) {
-      .full-section .popular-block-grid .popular-item {
-        width: calc(33.33% - 20px); } }
-    @media screen and (max-width: 640px) {
-      .full-section .popular-block-grid .popular-item {
-        width: calc(50% - 20px); } }
-    @media screen and (max-width: 450px) {
-      .full-section .popular-block-grid .popular-item {
-        width: 100%; } }
   .full-section .title {
     justify-content: flex-start; }
   .full-section .link-block {
