@@ -1,104 +1,100 @@
-.header{
+.header {
     background-color: #fff;
     padding-top: 100px;
     width: 100%;
-    @media screen and (max-width: $max-desktop-width){
+    @media screen and (max-width: $max-desktop-width) {
         padding-top: 4vw;
     }
-    @media screen and (max-width: $max-desktop-width-1366){
+    @media screen and (max-width: $max-desktop-width-1366) {
         padding-top: 2vw;
     }
-    @media screen and (max-width: $max-width){
+    @media screen and (max-width: $max-width) {
         padding-top: 2vw;
     }
-    @media screen and (max-width: $max-mobile-width){
+    @media screen and (max-width: $max-mobile-width) {
         padding-top: 50px;
     }
-    .menu{
+    .menu {
         display: flex;
         align-items: center;
-        .menu-button{
+        .menu-button {
             cursor: pointer;
             width: 60px;
-            @media screen and (max-width: $max-width){
+            @media screen and (max-width: $max-width) {
                 width: 6vw;
             }
         }
-        .header-title{
+        .header-title {
             font-size: 60px;
             text-transform: uppercase;
             padding-left: 45px;
             font-weight: bold;
-            @media screen and (max-width: $max-width){
+            @media screen and (max-width: $max-width) {
                 font-size: 6vw;
                 padding-left: 4.5vw;
             }
         }
     }
-
-    .title{
+    .title {
         display: flex;
         justify-content: center;
         position: relative;
         margin: 30px 0 0;
-        @media screen and (max-width: $max-desktop-width){
+        @media screen and (max-width: $max-desktop-width) {
             margin: 2vw 0 0;
         }
-        @media screen and (max-width: $max-desktop-width-1366){
+        @media screen and (max-width: $max-desktop-width-1366) {
             margin: 0;
         }
-        @media screen and (max-width: $max-width){
+        @media screen and (max-width: $max-width) {
             margin: 0;
         }
-        @media screen and (max-width: $max-mobile-width){
+        @media screen and (max-width: $max-mobile-width) {
             margin: 30vw 0 0;
         }
-        .location{
+        .location {
             font-size: 40px;
             font-weight: 500;
             display: flex;
             align-items: center;
-            @media screen and (max-width: $max-width){
+            @media screen and (max-width: $max-width) {
                 font-size: 4vw;
             }
-
-            @media screen and (max-width: $max-mobile-width){
+            @media screen and (max-width: $max-mobile-width) {
                 font-size: 14px;
             }
-
-            .marker-img{
+            .marker-img {
                 width: 45px;
                 height: 54px;
                 margin: 0 20px;
-                @media screen and (max-width: $max-width){
+                @media screen and (max-width: $max-width) {
                     width: 4.5vw;
                     height: 5.4vw;
                     margin: 0 2vw;
                 }
-                @media screen and (max-width: $max-mobile-width){
+                @media screen and (max-width: $max-mobile-width) {
                     width: 14px;
                     height: 17px;
                 }
             }
         }
     }
-
-    .link-block{
-        width: 600px;
+    .link-block {
+        width: 500px;
         margin: 0 auto;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         padding: 15px 20px;
-        @media screen and (max-width: $max-width){
-            width: 60vw;
+        @media screen and (max-width: $max-width) {
+            width: 50vw;
             padding: 1.5vw 2vw
         }
-        @media screen and (max-width: $max-mobile-width){
+        @media screen and (max-width: $max-mobile-width) {
             width: 302px;
             padding-top: 20px;
         }
-        .question{
+        .question {
             width: 30px;
             height: 30px;
             border-radius: 15px;
@@ -111,13 +107,29 @@
             font-weight: bold;
             color: $green;
             margin-left: 10px;
-            @media screen and (max-width: $max-width){
+            @media screen and (max-width: $max-width) {
                 width: 3vw;
                 height: 3vw;
                 border-radius: 1.5vw;
                 font-size: 1.9vw;
                 margin-left: 1rem;
             }
+        }
+    }
+}
+
+.header-home-screen {
+    display: flex;
+    @media screen and (max-width: $max-width) {}
+    @media screen and (max-width: $max-mobile-width) {
+        display: block;
+    }
+    .search-block {
+        padding-left: 30px;
+        padding-top: 15px;
+        @media screen and (max-width: $max-width) {
+            padding-left: 3vw;
+            padding-top: 1.5vw;
         }
     }
 }
