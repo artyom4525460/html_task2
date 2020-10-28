@@ -116,16 +116,16 @@ h3 {
     z-index: 1;
     cursor: pointer; }
     .search img#search-button {
-      left: 20px;
+      right: 20px;
       width: 23px; }
       @media screen and (max-width: 1000px) {
         .search img#search-button {
-          left: 2vw;
+          right: 2vw;
           width: 2.3vw; } }
       @media screen and (max-width: 450px) {
         .search img#search-button {
           width: 19px;
-          left: 20px; } }
+          right: 20px; } }
     .search img#cross-button {
       right: 62px;
       width: 50px;
@@ -137,7 +137,7 @@ h3 {
           width: 4.44vw;
           height: 4.44vw; } }
   .search input {
-    padding: 17px 17px 17px 50px;
+    padding: 17px 50px 17px 17px;
     width: 500px;
     height: 50px;
     border-radius: 30px;
@@ -148,7 +148,7 @@ h3 {
     text-align: left; }
     @media screen and (max-width: 1000px) {
       .search input {
-        padding: 1.7vw 1.7vw 1.7vw 5vw;
+        padding: 1.7vw 5vw 1.7vw 1.7vw;
         width: 50vw;
         height: 6vw;
         border-radius: 3vw;
