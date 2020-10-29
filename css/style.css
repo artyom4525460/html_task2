@@ -445,15 +445,20 @@ button {
     .header-home-screen {
       display: block; } }
   .header-home-screen .search-block {
-    padding-left: 30px;
-    padding-top: 17px; }
+    padding-left: 30px; }
     @media screen and (max-width: 1000px) {
       .header-home-screen .search-block {
-        padding-left: 3vw;
-        padding-top: 1.7vw; } }
+        padding-left: 3vw; } }
     @media screen and (max-width: 450px) {
       .header-home-screen .search-block {
-        padding-left: 0;
+        padding-left: 0; } }
+  .header-home-screen .logo {
+    padding-top: 5px; }
+    @media screen and (max-width: 1000px) {
+      .header-home-screen .logo {
+        padding-top: 0.5vw; } }
+    @media screen and (max-width: 450px) {
+      .header-home-screen .logo {
         padding-top: 0; } }
 
 /*

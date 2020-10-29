@@ -126,13 +126,19 @@
     }
     .search-block {
         padding-left: 30px;
-        padding-top: 17px;
         @media screen and (max-width: $max-width) {
             padding-left: 3vw;
-            padding-top: 1.7vw;
         }
         @media screen and (max-width: $max-mobile-width) {
             padding-left: 0;
+        }
+    }
+    .logo{
+        padding-top: 5px;
+        @media screen and (max-width: $max-width) {
+            padding-top: 0.5vw;
+        }
+        @media screen and (max-width: $max-mobile-width) {
             padding-top: 0;
         }
     }
