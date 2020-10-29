@@ -440,7 +440,8 @@ button {
           margin-left: 1rem; } }
 
 .header-home-screen {
-  display: flex; }
+  display: flex;
+  padding-top: 10px; }
   @media screen and (max-width: 450px) {
     .header-home-screen {
       display: block; } }
