@@ -656,18 +656,18 @@ button {
     @media screen and (max-width: 1000px) {
       .popular .slick-track {
         padding: 3vw 0; } }
-  .popular .popular-block-grid {
+  .popular .popular-block-grid, .popular .popular-block-grid-previous {
     display: flex;
     flex-wrap: wrap;
     margin-left: -10px;
     margin-right: -10px; }
-    .popular .popular-block-grid .popular-item {
+    .popular .popular-block-grid .popular-item, .popular .popular-block-grid-previous .popular-item {
       margin: 0 5px;
       margin-bottom: 20px; }
       @media screen and (max-width: 450px) {
-        .popular .popular-block-grid .popular-item {
+        .popular .popular-block-grid .popular-item, .popular .popular-block-grid-previous .popular-item {
           width: 100%; } }
-    .popular .popular-block-grid .top-part {
+    .popular .popular-block-grid .top-part, .popular .popular-block-grid-previous .top-part {
       display: flex; }
 
 .full-section {
@@ -692,6 +692,11 @@ button {
     @media screen and (max-width: 450px) {
       .full-section .popular-block-grid .popular-item {
         width: 100%; } }
+  .full-section .popular-block-grid-previous .popular-item {
+    width: 215px; }
+    @media screen and (max-width: 450px) {
+      .full-section .popular-block-grid-previous .popular-item {
+        width: 57.77vw; } }
   .full-section .title {
     justify-content: flex-start; }
   .full-section .link-block {
