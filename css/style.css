@@ -672,6 +672,26 @@ button {
 
 .full-section {
   max-width: 1920px; }
+  .full-section .popular-block-grid .popular-item {
+    width: calc(12.5% - 10px); }
+    @media screen and (max-width: 1660px) {
+      .full-section .popular-block-grid .popular-item {
+        width: calc(16.66% - 10px); } }
+    @media screen and (max-width: 1440px) {
+      .full-section .popular-block-grid .popular-item {
+        width: calc(20% - 10px); } }
+    @media screen and (max-width: 1250px) {
+      .full-section .popular-block-grid .popular-item {
+        width: calc(25% - 10px); } }
+    @media screen and (max-width: 980px) {
+      .full-section .popular-block-grid .popular-item {
+        width: calc(33.33% - 10px); } }
+    @media screen and (max-width: 640px) {
+      .full-section .popular-block-grid .popular-item {
+        width: calc(50% - 10px); } }
+    @media screen and (max-width: 450px) {
+      .full-section .popular-block-grid .popular-item {
+        width: 100%; } }
   .full-section .title {
     justify-content: flex-start; }
   .full-section .link-block {

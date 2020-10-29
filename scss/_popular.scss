@@ -160,21 +160,27 @@
 
 .full-section {
     max-width: 1920px;
-    // .popular-block-grid .popular-item {
-    //     width: calc(20% - 20px);
-    //     @media screen and (max-width: 1440px) {
-    //         width: calc(25% - 20px);
-    //     }
-    //     @media screen and (max-width: 980px) {
-    //         width: calc(33.33% - 20px);
-    //     }
-    //     @media screen and (max-width: 640px) {
-    //         width: calc(50% - 20px);
-    //     }
-    //     @media screen and (max-width: $max-mobile-width) {
-    //         width: 100%;
-    //     }
-    // }
+    .popular-block-grid .popular-item {
+        width: calc(12.5% - 10px);
+        @media screen and (max-width: 1660px) {
+            width: calc(16.66% - 10px);
+        }
+        @media screen and (max-width: 1440px) {
+            width: calc(20% - 10px);
+        }
+        @media screen and (max-width: 1250px) {
+            width: calc(25% - 10px);
+        }
+        @media screen and (max-width: 980px) {
+            width: calc(33.33% - 10px);
+        }
+        @media screen and (max-width: 640px) {
+            width: calc(50% - 10px);
+        }
+        @media screen and (max-width: $max-mobile-width) {
+            width: 100%;
+        }
+    }
     .title {
         justify-content: flex-start;
     }
