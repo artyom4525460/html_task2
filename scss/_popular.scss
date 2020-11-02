@@ -181,12 +181,6 @@
             width: 100%;
         }
     }
-    .popular-block-grid-previous .popular-item {
-        width: 215px;
-        @media screen and (max-width: $max-mobile-width) {
-            width: 57.77vw;
-        }
-    }
     .title {
         justify-content: flex-start;
     }

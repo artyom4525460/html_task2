@@ -96,6 +96,21 @@ h3 {
 .no-padding-bottom {
   padding-bottom: 0 !important; }
 
+.margin-top-50 {
+  margin-top: -70px; }
+  @media screen and (max-width: 1000px) {
+    .margin-top-50 {
+      margin-top: -7vw; } }
+  @media screen and (max-width: 1440px) {
+    .margin-top-50 {
+      margin-top: -5vw; } }
+  @media screen and (max-width: 650px) {
+    .margin-top-50 {
+      margin-top: -3vw; } }
+  @media screen and (max-width: 450px) {
+    .margin-top-50 {
+      margin-top: -50px; } }
+
 /*
     Controls
 */
@@ -692,11 +707,6 @@ button {
     @media screen and (max-width: 450px) {
       .full-section .popular-block-grid .popular-item {
         width: 100%; } }
-  .full-section .popular-block-grid-previous .popular-item {
-    width: 215px; }
-    @media screen and (max-width: 450px) {
-      .full-section .popular-block-grid-previous .popular-item {
-        width: 57.77vw; } }
   .full-section .title {
     justify-content: flex-start; }
   .full-section .link-block {

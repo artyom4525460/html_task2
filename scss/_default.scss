@@ -118,3 +118,19 @@ h3{
 .no-padding-bottom{
     padding-bottom: 0 !important;
 }
+
+.margin-top-50{
+    margin-top: -70px;
+    @media screen and (max-width: $max-width){
+        margin-top: -7vw;
+    }
+    @media screen and (max-width: 1440px){
+        margin-top: -5vw;
+    }
+    @media screen and (max-width: 650px){
+        margin-top: -3vw;
+    }
+    @media screen and (max-width: $max-mobile-width){
+        margin-top: -50px;
+    }
+}
