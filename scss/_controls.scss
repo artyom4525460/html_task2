@@ -389,7 +389,11 @@ button {
     }
 }
 
-.custom-radio {
+.show-palet{
+    display: block !important;
+}
+
+  .custom-radio {
     position: absolute;
     z-index: -1;
     opacity: 0;

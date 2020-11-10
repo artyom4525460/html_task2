@@ -464,6 +464,9 @@ button {
             .share-block .share-palet .social-block .item .name {
               font-size: 13px; } }
 
+.show-palet {
+  display: block !important; }
+
 .custom-radio {
   position: absolute;
   z-index: -1;
