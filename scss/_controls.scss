@@ -252,3 +252,191 @@ button {
         left: 25%;
     }
 }
+
+.share-block{
+    position: absolute;
+    right: 20px;
+    z-index: 10;
+    @media screen and (max-width: $max-width) {
+        right: 2vw;
+    }
+    @media screen and (max-width: 1060px) {
+        top: 10vw;
+    }
+    @media screen and (max-width: $max-mobile-width) {
+        right: 20px;
+        top: auto;
+    }
+    .share-button{
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        filter: drop-shadow(0 0 6px rgba(40,143,204,0.16));
+        background-color: #ffffff;
+        border: 1px solid #288fcc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        @media screen and (max-width: $max-width) {
+            width: 7vw;
+            height: 7vw;
+        }
+        @media screen and (max-width: $max-mobile-width) {
+            width: 70px;
+            height: 70px;
+        }
+        img{
+            width: 45px;
+            @media screen and (max-width: $max-width) {
+                width: 4.5vw;
+            }
+            @media screen and (max-width: $max-mobile-width) {
+                width: 45px;
+            }
+        }
+    }
+    .share-palet{
+        display: none;
+        position: absolute;
+        right: 40px;
+        min-width: 636px;
+        max-width: 100%;
+        border-radius: 15px;
+        filter: drop-shadow(0 0 6px rgba(0,0,0,0.16));
+        background-color: #ffffff;
+        text-align: center;
+        padding: 30px 20px 60px;
+        @media screen and (max-width: $max-width) {
+            padding: 3vw 2vw 6vw;
+            min-width: 63vw;
+        }
+        @media screen and (max-width: $max-mobile-width) {
+            padding: 20px;
+            width: 100%;
+        }
+        .title{
+            font-size: 25px;
+            color: #000000;
+            font-weight: 400;
+            font-family: "Poppins";
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+        .radio-block{
+            display: flex;
+            justify-content: space-around;
+            @media screen and (max-width: $max-mobile-width) {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+            .item{
+                label{
+                    font-size: 23px;
+                    color: #000000;
+                    font-weight: bold;
+                    font-family: "Gilroy";
+                    text-align: center;
+                }
+                input{
+                    cursor: pointer;
+                }
+            }
+        }
+        .social-block{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+            @media screen and (max-width: $max-width) {
+                margin-top: 6vw;
+            }
+            @media screen and (max-width: $max-mobile-width) {
+                margin-top: 20px;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .item{
+                text-align: center;
+                display: block;
+                .logo{
+                    width: 75px;
+                    @media screen and (max-width: $max-width) {
+                        width: 7.5vw;
+                    }
+                    @media screen and (max-width: $max-mobile-width) {
+                        width: 75px;
+                    }
+                    img{
+                        max-width: 100%;
+                    }
+                }
+                .name{
+                    font-size: 13px;
+                    color: #000000;
+                    font-weight: 400;
+                    font-family: "Poppins";
+                    @media screen and (max-width: $max-width) {
+                        font-size: 1.3vw;
+                    }
+                    @media screen and (max-width: $max-mobile-width) {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.custom-radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .custom-radio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .custom-radio+label::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-right: 13px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  .custom-radio:not(:checked)+label::before {
+    border: 1px solid #000;
+    width: 26px;
+    height: 26px;
+  }
+  .custom-radio:checked+label::after {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    margin-left: 4px;
+    border-radius: 50%;
+    content: '';
+    background: #000;
+  }
+  .custom-radio:not(:checked)+label::before{
+    background-color: $blue; 
+  }
+  .custom-radio:not(:checked)+label::after{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+    border-radius: 50%;
+    content: '';
+    background: #fff;
+    border: 1px solid #000;
+  }

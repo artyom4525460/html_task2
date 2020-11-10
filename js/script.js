@@ -1,12 +1,12 @@
+var shareButton = document.getElementById('share-button')
+var sharePalet = document.getElementById('share-palet')
 
-function onHideModal(selector){
-    $(selector).hide();
-}
+shareButton.addEventListener('click', function(event){
+    sharePalet.style.display = 'block';
+})
 
-function onShowModal(selector){
-    $(selector).show();
-}
-
-function onCall(){
-    alert('Call')
-}
+document.body.addEventListener('click', function(event){
+    if(!sharePalet.contains(event.target)){
+        sharePalet.style.display = 'none';
+    }
+}, true); 

@@ -133,6 +133,29 @@
         @media screen and (max-width: $max-mobile-width) {
             padding-left: 0;
         }
+        .search-controls{
+            display: flex;
+            @media screen and (max-width: $max-mobile-width) {
+                display: block;
+            }
+            @media screen and (max-width: $max-mobile-width) {
+                margin-left: 10px;
+                width: 240px;
+            }
+            button{
+                margin: 0;
+                margin-left: 10px;
+                width: 240px;
+                @media screen and (max-width: $max-width) {
+                    width: 24vw;
+                    margin-left: 1vw;
+                }
+                @media screen and (max-width: $max-mobile-width) {
+                    width: 240px;
+                    margin-top: 10px;
+                }
+            }
+        }
     }
     .logo{
         padding-top: 5px;
@@ -143,4 +166,9 @@
             padding-top: 0;
         }
     }
+}
+
+.header-with-share{
+    position: relative;
+    background: none;
 }

@@ -11,17 +11,80 @@
 </head>
 
 <body>
-    <section class="header full-section header-home-screen">
+    <section class="header full-section header-home-screen header-with-share">
         <div class="logo">
             <img src="./images/logo.png" alt="Logo">
         </div>
         <div class="search-block">
-            <div class="search">
-                <img src="./images/search.svg" alt="search" id="search-button">
-                <input type="text" name="search" placeholder="I'm looking for...">
+            <div class="search-controls">
+                <div class="search">
+                    <img src="./images/search.svg" alt="search" id="search-button">
+                    <input type="text" name="search" placeholder="I'm looking for...">
+                </div>
+                <button class="button primary-button">Broadcast Query</button>
             </div>
             <div class="link-block">
                 <a href="" onclick="alert('How it Works')">How it works?</a><span class="question mobile-hide">?</span>
+            </div>
+        </div>
+        <div class="share-block">
+            <div class="share-button" id="share-button">
+                <img src="./images/share.png" alt="share">
+            </div>
+            <div class="share-palet" id="share-palet">
+                <div class="title">Show results from:</div>
+                <div class="radio-block">
+                    <div class="item">
+                        <input class="custom-radio" type="radio" id="senderRadioButton" name="radio" value="sender" checked>
+                        <label for="senderRadioButton">Sender's Area</label>
+                    </div>
+                    <div class="item">
+                        <input  class="custom-radio" type="radio" id="receiverRadioButton" name="radio" value="sender">
+                        <label for="receiverRadioButton">Receiver's Area</label>
+                    </div>
+                </div>
+                <div class="social-block">
+                    <a href="#" class="item">
+                        <div class="logo">
+                            <img src="./images/whatsapp.png" alt="whatsapp">
+                        </div>
+                        <div class="name">
+                            Whatsapp
+                        </div>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="logo">
+                            <img src="./images/Imo.png" alt="Imo">
+                        </div>
+                        <div class="name">
+                            Imo
+                        </div>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="logo">
+                            <img src="./images/facebook.png" alt="facebook">
+                        </div>
+                        <div class="name">
+                            Facebook
+                        </div>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="logo">
+                            <img src="./images/twitter.png" alt="twitter">
+                        </div>
+                        <div class="name">
+                            Twitter
+                        </div>
+                    </a>
+                    <a href="#" class="item">
+                        <div class="logo">
+                            <img src="./images/instagram.png" alt="instagram">
+                        </div>
+                        <div class="name">
+                            Instagram
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
