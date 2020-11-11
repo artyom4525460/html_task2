@@ -363,7 +363,7 @@ button {
     border-radius: 35px;
     filter: drop-shadow(0 0 6px rgba(40, 143, 204, 0.16));
     background-color: #ffffff;
-    border: 1px solid #288fcc;
+    border: 1px solid #84cb76;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -655,7 +655,8 @@ button {
       .header-home-screen .search-block .search-controls button {
         margin: 0;
         margin-left: 10px;
-        width: 240px; }
+        width: 240px;
+        background-color: #84cb76; }
         @media screen and (max-width: 1000px) {
           .header-home-screen .search-block .search-controls button {
             width: 24vw;
